@@ -1,0 +1,279 @@
+@media screen and (max-width: 1400px) {
+  #home {
+    height: 83vh;
+    margin-bottom: 6rem;
+  }
+  .about-containers {
+    flex-wrap: wrap;
+  }
+  #contact,
+  #projects {
+    height: fit-content;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  #desktop-nav {
+    display: none;
+  }
+  #hamburger-nav {
+    display: flex;
+  }
+
+
+  #about{
+    padding-top: 23rem;
+    margin-top: -11rem;
+  }
+
+  .ntitle{
+    margin-top: 2.5rem;
+  }
+
+  .title{
+    margin-top: 2.5rem;
+  }
+  .stitle{
+    margin-top: 0.85rem;
+  }
+
+  #experience, #academics{
+    padding-top: 7rem;
+    margin-top:-3rem;
+  }
+
+  #projects{
+    padding-top: 7rem;
+  }
+  .experience-details-container {
+    margin-top: 2rem;
+  }
+
+  .project{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+  }
+
+  #home,
+  .section-container {
+    display: block;
+  }
+  .arrow {
+    display: none;
+  }
+  section,
+  .section-container {
+    height: fit-content;
+  }
+  section {
+    margin: 0 5%;
+  }
+  .section__pic-container {
+    width: 275px;
+    height: 275px;
+    margin: 0 auto 2rem;
+    margin-top: -4vh;
+  }
+  .about-containers {
+    margin-top: 0;
+  }
+  .about-details-container,
+  .experience-box,
+  .academics-box {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  #desktop-nav {
+    display: none;
+  }
+  #hamburger-nav {
+    display: flex;
+  }
+
+
+  #about{
+    margin-top: -10rem;
+    padding-top: 15rem;
+  }
+
+  .ntitle{
+    margin-top: 2.5rem;
+  }
+
+  .title{
+    margin-top: 2.5rem;
+  }
+  .stitle{
+    margin-top: 0.85rem;
+  }
+
+  #experience, #academics{
+    padding-top: 7rem;
+    margin-top:1rem;
+  }
+
+  #projects{
+    padding-top: 7rem;
+  }
+  .experience-details-container {
+    margin-top: 2rem;
+  }
+
+  .project{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+  }
+
+  #home {
+    display: block;
+  }
+  .arrow {
+    display: none;
+  }
+  section,
+  .section-container {
+    height: fit-content;
+  }
+  section {
+    margin: 0 5%;
+  }
+  .section__pic-container {
+    width: 275px;
+    height: 275px;
+    margin: 0 auto 2rem;
+    margin-top: -4vh;
+  }
+  .about-containers {
+    margin-top: 0;
+  }
+  .about-details-container,
+  .experience-box,
+  .academics-box {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #contact{
+    height: 2px;
+    margin-bottom: 5rem;
+    margin-top: 2rem;
+  }
+
+  #home {
+    margin: 2px;
+    padding-top: -7rem;
+  }
+
+  #about{
+    padding-top: 9.5rem;
+    margin-top: 4vh;
+  }
+
+  #projects, #experience, #academics {
+    padding-top: 7rem;
+    margin-top: -8rem;
+  }
+  #contact {
+    padding-top: 5rem;
+    margin-top: 2rem;
+    margin-bottom:9rem;
+  }
+
+  article {
+    font-size: 1rem;
+  }
+  
+
+  footer nav {
+    height: fit-content;
+    margin-bottom: 1px;
+  }
+
+  .goofy{
+    padding-right: 2.5vh;
+  }
+
+  .project{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+  }
+
+  .description{
+    font-size: 1rem!important;
+    align-items: center!important;
+  }
+  .about-containers,
+  .contact-info-upper-container,
+  .btn-container {
+    flex-wrap: wrap;
+  }
+  .contact-info-container {
+    margin: 0;
+  }
+  .contact-info-container p,
+  .nav-links li a {
+    font-size: 1rem;
+  }
+  .experience-sub-title {
+    font-size: 1.25rem;
+  }
+  .logo {
+    font-size: 1.5rem;
+  }
+  .nav-links {
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
+  .section__pic-container {
+    width: 250px;
+    height: 250px;
+    justify-content: center;
+    
+  }
+  .section__text {
+    margin-top: -2rem;
+  }
+
+  .title {
+    font-size: 2rem;
+    
+  }
+
+  .ntitle{
+    font-size: 3rem;
+    padding-left: 10px;
+  }
+
+
+  #role, #description{
+    font-size: 1.5rem!important;
+    padding-left: 10px;
+    
+}
+
+.goofy-item{
+  padding-left: 10px;
+}
+  .stitle{
+    margin-top: -4vh;
+  }
+  .text-container {
+    text-align: justify;
+  }
+  .about-details-container,
+  .experience-box,
+  .academics-box {
+    width: 100%;
+  }
+
+  footer{
+    height: 50px;
+  }
+}
