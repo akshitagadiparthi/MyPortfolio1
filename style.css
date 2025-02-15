@@ -752,7 +752,7 @@ h1 {
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   width: 270px;
-  height: 400px;
+  height: 510px;
   padding: 10px;
   text-align: left;
   flex: 0 0 auto; /* Prevent flex items from shrinking */ 
@@ -794,6 +794,25 @@ h1 {
 
 .view-project-btn:hover {
   background-color: #0056b3;
+}
+
+/* CERTIFICATIONS */
+#certifications{
+  padding-top: 13px;
+  margin-top: -13vh;
+}
+
+.certifications-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  font-size: 1.2rem;
+}
+
+.certifications-box {
+  width: 900px;
+  min-height: 380px;
 }
 
 
