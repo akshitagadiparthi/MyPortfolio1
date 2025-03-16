@@ -15,7 +15,7 @@ function openAndDownload() {
   // Simulate a download
   var a = document.createElement('a');
   a.href = url;
-  a.download = 'Resume_Gadiparthi.pdf'; // Suggests a filename for saving
+  a.download = 'Gadiparthi_SupplyChain.pdf'; // Suggests a filename for saving
   document.body.appendChild(a);
   a.click();
   document.body.removeChild(a);
